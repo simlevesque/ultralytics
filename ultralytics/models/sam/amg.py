@@ -141,7 +141,7 @@ def uncrop_masks(masks: torch.Tensor, crop_box: List[int], orig_h: int, orig_w: 
 
 def remove_small_regions(mask: np.ndarray, area_thresh: float, mode: str) -> Tuple[np.ndarray, bool]:
     """Removes small disconnected regions or holes in a mask based on area threshold and mode."""
-    import cv2  # type: ignore
+    import vidformer.cv2 as cv2  # type: ignore
 
     assert mode in {"holes", "islands"}, f"Provided mode {mode} is invalid"
     correct_holes = mode == "holes"

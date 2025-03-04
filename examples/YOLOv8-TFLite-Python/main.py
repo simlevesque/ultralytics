@@ -3,7 +3,7 @@
 import argparse
 from typing import Tuple, Union
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import tensorflow as tf
 import yaml

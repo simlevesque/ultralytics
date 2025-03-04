@@ -3,7 +3,7 @@
 import argparse
 from pathlib import Path
 
-import cv2
+import vidformer.cv2 as cv2
 from sahi import AutoDetectionModel
 from sahi.predict import get_sliced_prediction
 from sahi.utils.ultralytics import download_yolo11n_model

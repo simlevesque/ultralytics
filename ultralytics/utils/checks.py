@@ -13,7 +13,7 @@ from importlib import metadata
 from pathlib import Path
 from typing import Optional
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import requests
 import torch

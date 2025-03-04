@@ -5,7 +5,7 @@ import warnings
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Union
 
-import cv2
+import vidformer.cv2 as cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import torch

@@ -5,7 +5,7 @@ import random
 from copy import deepcopy
 from typing import Tuple, Union
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import torch
 from PIL import Image

@@ -6,7 +6,7 @@ import urllib
 from copy import copy
 from pathlib import Path
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import pytest
 import torch

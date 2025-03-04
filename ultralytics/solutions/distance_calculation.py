@@ -2,7 +2,7 @@
 
 import math
 
-import cv2
+import vidformer.cv2 as cv2
 
 from ultralytics.solutions.solutions import BaseSolution
 from ultralytics.utils.plotting import Annotator, colors

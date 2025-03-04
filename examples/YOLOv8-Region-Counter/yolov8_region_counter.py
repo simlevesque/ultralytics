@@ -4,7 +4,7 @@ import argparse
 from collections import defaultdict
 from pathlib import Path
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 from shapely.geometry import Polygon
 from shapely.geometry.point import Point

@@ -3,7 +3,7 @@
 import argparse
 from typing import Tuple
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import onnxruntime as ort
 import torch

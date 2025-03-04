@@ -2,7 +2,7 @@
 
 import copy
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 
 from ultralytics.utils import LOGGER

@@ -11,7 +11,7 @@ from multiprocessing.pool import ThreadPool
 from pathlib import Path
 from tarfile import is_tarfile
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 from PIL import Image, ImageOps
 

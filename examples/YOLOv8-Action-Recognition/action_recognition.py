@@ -6,7 +6,7 @@ from collections import defaultdict
 from typing import List, Optional, Tuple
 from urllib.parse import urlparse
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import torch
 from transformers import AutoModel, AutoProcessor

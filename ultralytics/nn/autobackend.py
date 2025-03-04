@@ -7,7 +7,7 @@ import zipfile
 from collections import OrderedDict, namedtuple
 from pathlib import Path
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import torch
 import torch.nn as nn

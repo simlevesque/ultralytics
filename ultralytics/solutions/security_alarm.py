@@ -82,7 +82,7 @@ class SecurityAlarm(BaseSolution):
         from email.mime.multipart import MIMEMultipart
         from email.mime.text import MIMEText
 
-        import cv2
+        import vidformer.cv2 as cv2
 
         img_bytes = cv2.imencode(".jpg", im0)[1].tobytes()  # Encode the image as JPEG
 

@@ -1,6 +1,6 @@
 # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
-import cv2
+import vidformer.cv2 as cv2
 import pytest
 
 from tests import TMP

@@ -5,7 +5,7 @@ from glob import glob
 from math import ceil
 from pathlib import Path
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 from PIL import Image
 

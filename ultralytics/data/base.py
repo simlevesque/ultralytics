@@ -9,7 +9,7 @@ from multiprocessing.pool import ThreadPool
 from pathlib import Path
 from typing import Optional
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import psutil
 from torch.utils.data import Dataset

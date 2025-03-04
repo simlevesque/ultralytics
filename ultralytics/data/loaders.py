@@ -9,7 +9,7 @@ from pathlib import Path
 from threading import Thread
 from urllib.parse import urlparse
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import requests
 import torch

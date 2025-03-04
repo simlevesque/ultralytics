@@ -7,7 +7,7 @@ from pathlib import Path
 from types import SimpleNamespace
 from typing import Dict, List, Union
 
-import cv2
+import vidformer.cv2 as cv2
 
 from ultralytics.utils import (
     ASSETS,

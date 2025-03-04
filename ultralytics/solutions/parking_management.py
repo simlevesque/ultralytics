@@ -2,7 +2,7 @@
 
 import json
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 
 from ultralytics.solutions.solutions import BaseSolution

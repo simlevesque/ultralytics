@@ -2,7 +2,7 @@
 
 from collections import defaultdict
 
-import cv2
+import vidformer.cv2 as cv2
 
 from ultralytics import YOLO
 from ultralytics.utils import ASSETS_URL, DEFAULT_CFG_DICT, DEFAULT_SOL_DICT, LOGGER

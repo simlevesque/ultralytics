@@ -37,7 +37,7 @@ import re
 import threading
 from pathlib import Path
 
-import cv2
+import vidformer.cv2 as cv2
 import numpy as np
 import torch
 

@@ -2,7 +2,7 @@
 
 import argparse
 
-import cv2.dnn
+import vidformer.cv2 as cv2.dnn
 import numpy as np
 
 from ultralytics.utils import ASSETS, yaml_load
