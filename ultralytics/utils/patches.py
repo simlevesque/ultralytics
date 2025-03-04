@@ -9,10 +9,11 @@ import numpy as np
 import torch
 
 # OpenCV Multilanguage-friendly functions ------------------------------------------------------------------------------
-_imshow = cv2.imshow  # copy to avoid recursion errors
 
+def _imshow(winname: str, mat: np.ndarray):
+    pass
 
-def imread(filename: str, flags: int = cv2.IMREAD_COLOR):
+def imread(filename: str):
     """
     Read an image from a file.
 
@@ -23,7 +24,7 @@ def imread(filename: str, flags: int = cv2.IMREAD_COLOR):
     Returns:
         (np.ndarray): The read image.
     """
-    return cv2.imdecode(np.fromfile(filename, np.uint8), flags)
+    return cv2.imdecode(np.fromfile(filename, np.uint8))
 
 
 def imwrite(filename: str, img: np.ndarray, params=None):
